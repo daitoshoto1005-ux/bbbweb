@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+body {
+  background: #eee;
+  font-family: "Ubuntu", "Noto Sans Japanese", sans-serif;
+}
+
+p {
+  color: #444;
+}
+
+.description {
+  position: absolute;
+  left: 0px;
+}
+
+.word-header {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.word-detail {
+  width: 30em;
+  padding: 0.5em;
+  border-radius: 0.3rem;
+  margin: auto;
+}
+
+.word-property {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.word-key {
+  margin-top: 1.2em;
+  border-radius: 0.3rem 0 0 0.3rem;
+  padding: 0.4em;
+  background-color: #ddd;
+  color: #999;
+}
+
+.word-value {
+  border-radius: 0 0.3rem 0.3rem 0;
+  padding: 0.4em;
+  background-color: #fff;
+  color: #333;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.word {
+  font-size: 1.4em;
+  border-radius: 0.3rem;
+}
+
+.word::selection {
+  background: #ccc;
+}
+
+.word:hover {
+  cursor: pointer;
+}
+
+.word:hover:not(.selected) {
+  background: #ddd;
+}
+
+.verb {
+  color: #f44;
+}
+
+.pronoun {
+  color: #27f;
+}
+
+.noun {
+  color: #27f;
+}
+
+.particle {
+  color: #666;
+}
+
+.punctuation {
+  color: #666;
+}
+
+.adjective {
+  color: #f80;
+}
+
+.adverb {
+  color: #d0f;
+}
+
+.paragraph {
+  border-radius: 0.15rem;
+  box-shadow: 0 1px 2px 1px #00000010;
+  padding: 1rem;
+  margin: 1rem auto;
+  background: #fff;
+  width: 36rem;
+}
+
+table {
+  margin: auto;
+  border-spacing: 0 0.4rem;
+}
+
+td:first-of-type {
+  text-align: right;
+}
+
+td:last-of-type {
+  text-align: left;
+}
+
+#description {
+  text-align: center;
+}
